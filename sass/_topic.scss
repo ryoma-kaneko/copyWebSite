@@ -1,0 +1,85 @@
+.three-topic{
+    width: 100% -15.6%;
+    height: 1300px;
+    background-color: #fff;
+    margin-left: 32rem;
+    
+
+}
+.t-wrap{
+    height: 25%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    &:first-child{
+        margin-top: 120px;
+    }
+    &:last-child{
+        margin-bottom: 140px;
+    }
+}
+.color-box{
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+    height: 100%;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 150px;
+    background-color: #CDD6DD;
+
+}
+
+.img-box{
+    width: 25rem;
+    border-radius: 50% 50%;
+    position: absolute;
+    top: 30px;
+    left: -15%;
+    overflow: hidden;
+    img{
+        width: 100%;
+    }
+}
+.img-box:hover{
+    img{
+        transition-duration: 2s;
+        transform: scale(1.2) rotateZ(360deg)
+    }
+}
+
+    
+
+.topics{
+    display: inline-block;
+    color: #6F7579;
+    width: 73%;
+    height: 82%;
+    margin: 33px 30px 24px 170px;
+    .t-ravel{
+        font-size: 1.8rem;
+        padding-left: 2px;
+    }
+    .t-title{
+        text-align: center;
+        font-size: 3.6rem;
+        font-weight: bold;
+        margin-top: 5.5rem;
+        margin-bottom: 5rem;
+
+    }
+    .t-btn-wrap{
+        display: block;
+        text-align: right;
+
+    }
+    .t-btn{
+        font-size: 1.2rem;
+        color: #7F7F7F;
+        padding: 10px 30px;
+        border-radius: 4px;
+        opacity: 1;
+        margin-right: 3rem;
+    }
+}
+
